@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Widget - Paris</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="widget">
+		<div class="widget__main-info">
+			<!-- Date -->
+			<div class="widget__date-column">
+				<div class="widget__date-day">Friday</div>
+				<time class="widget__date-time" datetime="2018-06-03">August, 23rd</time>
+			</div>
+			<div class="widget__info-column">
+				<!-- Temp -->
+				<div class="widget__temp-box">
+					<span class="widget__temp-value">12</span>
+					<span class="widget__temp-unit">°</span>
+				</div>
+				<!-- Location -->
+				<span class="widget__location">Paris, France</span>
+				<!-- Wind -->
+				<div class="widget__wind-box">
+					<span class="widget__wind-amount">14</span>
+					<span class="widget__wind-measure">mph</span>
+				</div>
+			</div>
+		</div>
+		<!-- Days-list -->
+		<div class="widget__days-box">
+			<ul class="widget__days-list">
+				<!-- Sunday -->
+				<li class="widget__days-item widget__days-item--rain widget__days-item--hidden">
+					<span class="widget__day-name">Sunday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">10</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Monday -->
+				<li class="widget__days-item widget__days-item--rain widget__days-item--delimit">
+					<span class="widget__day-name">Monday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">10</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Tuesday -->
+				<li class="widget__days-item widget__days-item--cloudy widget__days-item--delimit">
+					<span class="widget__day-name">Tuesday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">15</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Wednesday -->
+				<li class="widget__days-item widget__days-item--sunny widget__days-item--delimit">
+					<span class="widget__day-name">Wednesday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">23</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Thursday -->
+				<li class="widget__days-item widget__days-item--overcast">
+					<span class="widget__day-name">Thursday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">18</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Friday -->
+				<li class="widget__days-item widget__days-item--rain widget__days-item--hidden">
+					<span class="widget__day-name">Friday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">18</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+				<!-- Saturday -->
+				<li class="widget__days-item widget__days-item--rain widget__days-item--hidden">
+					<span class="widget__day-name">Saturday</span>
+					<div class="widget__day-temp-box">
+						<span class="widget__day-temp-value">18</span>
+						<span class="widget__day-temp-unit">°</span>
+					</div>
+				</li>
+			</ul>
+			<!-- Controls -->
+			<button class="widget__days-control widget__days-control--prev"></button>
+			<button class="widget__days-control widget__days-control--next"></button>
+		</div>
+	</div>
+</body>
+</html>
